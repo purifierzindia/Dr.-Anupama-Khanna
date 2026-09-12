@@ -26,11 +26,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCallModal }) =>
               >
                 GENERAL PHYSICIAN • DWARKA
               </span>
-              <span className="text-xs font-semibold tracking-wider text-[#1C2321] bg-[#F5F1E8] px-2.5 py-1 rounded-xs border border-[#E8E2D6]">
-                MBBS
-              </span>
               <span className="text-xs font-semibold tracking-wider text-[#2E5A47] bg-[#EDF3EF] px-2.5 py-1 rounded-xs border border-[#D5E2D9]">
                 35+ YEARS EXPERIENCE
+              </span>
+              <span className="text-xs font-semibold tracking-wider text-[#1C2321] bg-[#F5F1E8] px-2.5 py-1 rounded-xs border border-[#E8E2D6]">
+                DIABETES & METABOLIC CARE
               </span>
             </div>
 
@@ -97,7 +97,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCallModal }) =>
                   <img
                     id="doctor-main-photo"
                     src="/assets/dr-anupama-khanna.jpeg"
-                    alt="Dr. Anupama Khanna, MBBS - General Physician & Diabetologist in Dwarka, New Delhi"
+                    alt="Dr. Anupama Khanna - Senior General Physician & Diabetologist in Dwarka, New Delhi"
                     className="w-full h-full object-cover object-top"
                     loading="eager"
                   />
@@ -114,7 +114,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenCallModal }) =>
                       Dr. Anupama Khanna
                     </span>
                     <span className="text-[10px] sm:text-[11px] text-white/90">
-                      MBBS • 35+ Years of Clinical Care
+                      35+ Years of Clinical Care
                     </span>
                   </div>
                 </div>

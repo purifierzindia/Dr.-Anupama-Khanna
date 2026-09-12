@@ -46,9 +46,6 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenCallModal }
               <span className="font-editorial text-xl sm:text-2xl font-semibold tracking-tight text-[#1C2321] group-hover:text-[#2E5A47] transition-colors">
                 Dr. Anupama Khanna
               </span>
-              <span className="text-[10px] sm:text-[11px] font-medium tracking-wider text-[#2E5A47] bg-[#E2ECE5] px-2 py-0.5 rounded-full">
-                MBBS
-              </span>
             </div>
             <span className="text-[10px] sm:text-xs text-[#536058] tracking-wider uppercase font-medium mt-0.5">
               General Physician • Dwarka
