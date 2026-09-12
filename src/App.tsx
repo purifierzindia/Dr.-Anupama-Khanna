@@ -9,9 +9,7 @@ import { Hero } from './components/Hero';
 import { TrustStrip } from './components/TrustStrip';
 import { AboutSection } from './components/AboutSection';
 import { SpecialInterestSection } from './components/SpecialInterestSection';
-import { AreasOfCareSection } from './components/AreasOfCareSection';
 import { CredentialsSection } from './components/CredentialsSection';
-import { PatientTrustSection } from './components/PatientTrustSection';
 import { ClinicSection } from './components/ClinicSection';
 import { ConsultationCtaSection } from './components/ConsultationCtaSection';
 import { Footer } from './components/Footer';
@@ -45,41 +43,33 @@ export default function App() {
 
       {/* Main Content Sections */}
       <main className="flex-1">
-        {/* Hero Section */}
+        {/* 1. IMAGE: Hero Section with Authentic Doctor Portrait & Primary CTAs */}
         <Hero
           onOpenBooking={() => handleOpenBooking()}
           onOpenCallModal={handleOpenCallModal}
         />
 
-        {/* Horizontal Trust Metric Strip */}
-        <TrustStrip />
-
-        {/* About Section */}
+        {/* 2. TEXT: Concise About Section (2 short paragraphs + compact credentials) */}
         <AboutSection />
 
-        {/* Special Interest: Diabetes & Metabolic Health */}
+        {/* 3. STATISTIC: High-Impact 35+ Years of Clinical Experience */}
+        <TrustStrip />
+
+        {/* 4. EDITORIAL GRID: Diabetes & Metabolic Health (4 distinct focus areas) */}
         <SpecialInterestSection
           onOpenBooking={(focus) => handleOpenBooking(focus)}
         />
 
-        {/* Areas of Care (Typographic Expertise) */}
-        <AreasOfCareSection
-          onOpenBooking={(focus) => handleOpenBooking(focus)}
-        />
-
-        {/* Experience & Continuing Learning (Credentials) */}
+        {/* 5. TEXT / TIMELINE: Experience & Learning (MBBS, RCGP UK, Endocrine Society USA) */}
         <CredentialsSection />
 
-        {/* Patient Trust (Practo Verified) */}
-        <PatientTrustSection />
-
-        {/* Clinic & Practice Location with authentic photos */}
+        {/* 6. PRACTICE & LOCATION: Dwarka Clinic, Authentic Clinic Photos, Map & Direct Contact */}
         <ClinicSection
           onOpenBooking={() => handleOpenBooking()}
           onOpenCallModal={handleOpenCallModal}
         />
 
-        {/* Consultation Call to Action */}
+        {/* 7. CTA: Final Consultation Call to Action */}
         <ConsultationCtaSection
           onOpenBooking={() => handleOpenBooking()}
           onOpenCallModal={handleOpenCallModal}

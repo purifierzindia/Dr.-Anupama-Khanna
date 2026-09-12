@@ -95,13 +95,8 @@ export const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#areas-of-care" className="hover:text-white transition-colors">
-                  Areas of Care (Expertise)
-                </a>
-              </li>
-              <li>
                 <a href="#credentials" className="hover:text-white transition-colors">
-                  Experience & Credentials
+                  Experience & Learning
                 </a>
               </li>
               <li>

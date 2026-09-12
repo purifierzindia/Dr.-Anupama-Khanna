@@ -21,8 +21,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenCallModal }
   const navLinks = [
     { label: 'About', href: '#about' },
     { label: 'Diabetes & Metabolic Health', href: '#special-interest' },
-    { label: 'Areas of Care', href: '#areas-of-care' },
-    { label: 'Credentials', href: '#credentials' },
+    { label: 'Experience & Learning', href: '#credentials' },
     { label: 'Clinic & Location', href: '#clinic' },
   ];
 
@@ -31,8 +30,8 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenCallModal }
       id="main-header"
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         scrolled
-          ? 'bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E8E2D6] py-3.5 shadow-[0_4px_20px_-8px_rgba(28,35,33,0.06)]'
-          : 'bg-[#FAF7F2]/80 backdrop-blur-sm py-5 border-b border-transparent'
+          ? 'bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E8E2D6] py-3 shadow-[0_4px_20px_-8px_rgba(28,35,33,0.06)]'
+          : 'bg-[#FAF7F2]/90 backdrop-blur-sm py-4 border-b border-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,12 +46,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking, onOpenCallModal }
               <span className="font-editorial text-xl sm:text-2xl font-semibold tracking-tight text-[#1C2321] group-hover:text-[#2E5A47] transition-colors">
                 Dr. Anupama Khanna
               </span>
-              <span className="hidden sm:inline-block text-[11px] font-medium tracking-wider text-[#2E5A47] bg-[#E2ECE5] px-2 py-0.5 rounded-full">
+              <span className="text-[10px] sm:text-[11px] font-medium tracking-wider text-[#2E5A47] bg-[#E2ECE5] px-2 py-0.5 rounded-full">
                 MBBS
               </span>
             </div>
-            <span className="text-[11px] sm:text-xs text-[#536058] tracking-wider uppercase font-medium mt-0.5">
-              General Physician • Diabetes & Metabolic Health • Dwarka
+            <span className="text-[10px] sm:text-xs text-[#536058] tracking-wider uppercase font-medium mt-0.5">
+              General Physician • Dwarka
             </span>
           </a>
 
